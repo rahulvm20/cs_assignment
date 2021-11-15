@@ -13,10 +13,11 @@
 #define PROC_NAME "seconds"
 
 ssize_t proc_read(struct file *file, char __user *usr_buf,
-               size_t count, loff_t *pos);
+                  size_t count, loff_t *pos);
 
-static struct file_operations proc_ops = {
-	
+static struct file_operations proc_ops =
+{
+
     .owner = THIS_MODULE,
     .read = proc_read,
 };
@@ -33,14 +34,14 @@ int proc_init(void)
  */
 void proc_exit(void)
 {
-    
+
     /* it will remove the /proc/jiffies entry */
     remove_proc_entry(PROC_NAME, NULL);
 }
 
 /* Here in  this function is called each time /proc/jiffies is read */
 ssize_t proc_read(struct file *file, char __user *usr_buf,
-               size_t count, loff_t *pos)
+                  size_t count, loff_t *pos)
 {
     int rv = 0;
     char buffer[BUFFER_SIZE];
