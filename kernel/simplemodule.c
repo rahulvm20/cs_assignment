@@ -26,7 +26,7 @@ static int __init ModuleInit(void)
 {
 	start_time = jiffies;/*store jiffies time during loading module*/
 	printk("\nHello kernel, loading the current kernel..!\n");
-	printk("Golden ratio prime: %llu\n", GOLDEN_RATIO_PRIME);a
+	printk("Golden ratio prime: %llu\n", GOLDEN_RATIO_PRIME);
 	printk("Jiffies: %lu HZ: %d\n\n", jiffies, HZ);
 	return 0;
 }
