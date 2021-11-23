@@ -38,7 +38,7 @@ static void __exit ModuleExit(void)
 	printk("\nGoodbye, Removing this current kernel\n");
 	printk("GCD(3300,24): %lu\n", gcd(3300, 24));
 	printk("Jiffies: %lu\n", end_time);
-	printk("total time elapsed: %lu\n\n", (end_time - start_time) * 4 / 1000);
+	printk("total time elapsed: %lu\n\n", (end_time - start_time) * /HZ);
 }
 
 module_init(ModuleInit);/*This is the entry point to the kernel module*/
