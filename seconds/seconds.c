@@ -11,7 +11,7 @@
 #include <linux/init.h>    /*This header file includes all things related to __init part*/
 #include <linux/module.h>  /*This is where module_init and module_exit are defined*/ 
 #include <linux/proc_fs.h> /*This header file is mainly used to invoke the function such as proc_create(), proc_read(), proc_init(), proc_exit() etc.,*/
-#include <linux/uaccess.h> /*This header file use to access the HZ determine the frequency of time interrupt*/
+#include <linux/uaccess.h> /*This header file contains copy_to_user() function to copy buffer messages from kernel space to user space*/
 #include <asm/param.h>     /*This header file use to access the HZ determine the frequency of time interrupt*/
 #include <linux/jiffies.h> /*To access jiffies variable which maintains the number of timer interrupts that have occurred since the system was booted*/
 

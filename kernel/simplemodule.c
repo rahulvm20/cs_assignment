@@ -11,7 +11,7 @@
 #include <linux/init.h>    /*This header file includes all things related to __init part*/
 #include <linux/hash.h>    /*Includes all the hashing functions which defines a constant value called GOLDEN_RATIO_PRIME*/
 #include <linux/gcd.h>     /*This header file is used to access the gcd() function*/
-#include <linux/uaccess.h> /*This header file use to access the HZ determine the frequency of time interrupt*/
+#include <linux/uaccess.h> /*This header file contains copy_to_user() function to copy buffer messages from kernel space to user space*/
 #include <linux/jiffies.h> /*To access jiffies variable which maintains the number of timer interrupts that have occurred since the system was booted*/
 
 
