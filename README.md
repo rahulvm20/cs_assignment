@@ -63,7 +63,7 @@ The project is being divided into three parts
   - **cat /proc/second when module is not yet loaded:** <br/>
    ![11](https://user-images.githubusercontent.com/57564844/143492062-27affc70-08fa-4bef-890d-9848cb312cb8.png)<br/><br/>
   - **cat /proc/seconds when module is loaded first time:** <br/>
-   ![22](https://user-images.githubusercontent.com/57564844/143492076-4047e322-885f-4b5f-b6be-13634c0150af.png)<br/><br/>
+   ![22](https://user-images.githubusercontent.com/57564844/143492839-6a81f0b1-7d07-4e64-b852-49e988cad8fa.png)<br/><br/>
   - **cat /proc/seconds after successive time periods:** <br/>
    ![33](https://user-images.githubusercontent.com/57564844/143492083-8dc4cc84-fdc9-4622-b28f-6f8c1f9d6f9f.png)<br/><br/>
    ![44](https://user-images.githubusercontent.com/57564844/143492095-998b999d-2fba-4012-b2ee-f8380ae72979.png)<br/><br/>
