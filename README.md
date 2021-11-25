@@ -55,7 +55,7 @@ The project is being divided into three parts
   - **cat /proc/jiffies when module is not yet loaded:** <br/>
    ![11](https://user-images.githubusercontent.com/57564844/143491099-d092a03e-22a4-4120-be9a-7c4fae35d8c3.png)<br/><br/>
   - **cat /proc/jiffies when module is loaded first time:** <br/>
-   ![22](https://user-images.githubusercontent.com/57564844/143491140-1ac438ce-52bb-4489-b9e0-48671f3d3b94.png)<br/><br/>
+   ![22](https://user-images.githubusercontent.com/57564844/143493070-7852d4df-f842-42f7-a2c1-acb436eb82f9.png)<br/><br/>
   - **cat /proc/jiffies after sometime:** <br/>
    ![33](https://user-images.githubusercontent.com/57564844/143491201-027f2430-d102-452b-9815-b1fb598c646e.png)<br/><br/><br/>
 
