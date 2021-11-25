@@ -55,9 +55,16 @@ The project is being divided into three parts
    ![11](https://user-images.githubusercontent.com/57564844/143491099-d092a03e-22a4-4120-be9a-7c4fae35d8c3.png)<br/><br/>
   - **cat /proc/jiffies when module is loaded first time:**
    ![22](https://user-images.githubusercontent.com/57564844/143491140-1ac438ce-52bb-4489-b9e0-48671f3d3b94.png)<br/><br/>
-  - **cat /proc/jiffies after sometime fromwhen module is loaded for the first time:**
+  - **cat /proc/jiffies after sometime:**
    ![33](https://user-images.githubusercontent.com/57564844/143491201-027f2430-d102-452b-9815-b1fb598c646e.png)<br/><br/>
 
+- ## **Part 3**<br/><br/>
+  - **cat /proc/second when module is not yet loaded:**
+   ![11](https://user-images.githubusercontent.com/57564844/143491099-d092a03e-22a4-4120-be9a-7c4fae35d8c3.png)<br/><br/>
+  - **cat /proc/jiffies when module is loaded first time:**
+   ![22](https://user-images.githubusercontent.com/57564844/143491140-1ac438ce-52bb-4489-b9e0-48671f3d3b94.png)<br/><br/>
+  - **cat /proc/jiffies after sometime fromwhen module is loaded for the first time:**
+   ![33](https://user-images.githubusercontent.com/57564844/143491201-027f2430-d102-452b-9815-b1fb598c646e.png)<br/><br/>
 
 
 
