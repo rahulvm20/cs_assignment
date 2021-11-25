@@ -16,8 +16,9 @@ in the /proc file system.
 
 
 #### Seting up the Environment
-To carryout this project, i used linux virtual machine that i had already installed while learning a course on coursera. details of this course is https://www.coursera.org/learn/finite-element-method/home/welcome where they explained how to install VM which worked well in this project too. This provided linux ubuntu version. Following the steps mentioned in the course made it easier to install the virtual machine, Although it took time to get used to the user interface.
+To carryout this project, i used linux virtual machine that i had already installed while learning a course on coursera. details of this course is https://www.coursera.org/learn/finite-element-method/home/welcome where they explained how to install VM which worked well in this project too. This provided linux ubuntu version. Following the steps mentioned in the course made it easier to install the virtual machine.
 
 
 #### Problems faced during the project
+Although installation was easier due to steps mentioned in that course, it was taking time to understand the command used in linux. Due to this i had to use both user interface by mouse to select and do operations like it's done in windows and along with that used command-line. During compiling using makefile, there were some issues related to module not being found due to which i had to use **sudo apt install _module_name_** and similar commands. 
 
