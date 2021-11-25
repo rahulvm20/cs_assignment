@@ -39,7 +39,7 @@ The project is being divided into three parts
    - Modify the kernel module to display **total time elapsed** from the loading till unloading the module in **seconds** using jiffies with help of the proc file system
    - **Description:** The changes made here are similar to those made of jiffies as in part 2, but some more things are to be added to store jiffies values at a different execution time, as stated in part 1. Here two-variable named stat_time and end_time, which stores values of jiffies during loading and reading of the file named seconds is taken. Each time this module is loaded, jiffies values during loading are stored in the start_time variable, and every time the seconds file is read, jiffies value is stored in the end_time variable. Then their difference is taken and divided by the HZ value. Since the difference in the number of ticks during the duration from loading the file to being read, and HZ is the number of ticks that happens in one second, their ratio will give the total time elapsed during that period. This message in kernel buffer is copied to user buffer by raw_copy_to_user() and displayed on the screen.
 
-#### OUTPUT
+# OUTPUT
 - ## **Part 1**<br/><br/>
   - **dmesg when module is not yet loaded:**
    ![11](https://user-images.githubusercontent.com/57564844/143489417-e2f0a773-515a-49c3-ba47-f2df18918b4c.png)<br/><br/>
