@@ -15,4 +15,7 @@ in the /proc file system.
 **Image Source:** https://www.researchgate.net/figure/Interaction-of-Linux-kernel-modules-with-their-environment_fig1_277248477 
 
 #### Seting up the Environment
-To carryout this project, i used linux virtual machine that i had already installed while learning a course on coursera. details of this course is https://www.coursera.org/learn/finite-element-method/home/welcome where they explained how to install VM which worked well in this project too. This provided linux ubuntu version.
+To carryout this project, i used linux virtual machine that i had already installed while learning a course on coursera. details of this course is https://www.coursera.org/learn/finite-element-method/home/welcome where they explained how to install VM which worked well in this project too. This provided linux ubuntu version. Following the steps mentioned in the course made it easier to install the virtual machine, Although it took time to get used to the user interface.
+
+#### Problems faced during the project
+
