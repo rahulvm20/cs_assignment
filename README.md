@@ -33,11 +33,11 @@ The project is being divided into 3 parts
   
  - **Part 2**
    - Modify the kernel modules to display **jiffies** value at the moment its read using proc file system
-   - **Description:** Once Kernel module is created then it is modified to print jiffies value whenever it is called using proc file system using **cat /proc/jiffies** command. To make this work first we should modify the C file made before and include functions related to proc file system that will get invokes when file is loaded or removed or read. After make we get many files one of them is .ko file which shld be inserted using insmod command. Then call **cat /proc/jiffies** which will read the proc file and  **ssize_t proc_read()** function is invoked where it accesses the jiffies variable and prints it in kernel buffer and it is cpied to user buffer **raw_copy_to_user()** and displayed on screen.
+   - **Description:** Once Kernel module is created then it is modified to print jiffies value whenever it is called using proc file system using **cat /proc/jiffies** command. To make this work first we should modify the C file made before and include functions related to proc file system that will get invokes when file is loaded or removed or read. After make we get many files one of them is .ko file which shld be inserted using insmod command. Then call **cat /proc/jiffies** which will read the proc file and  **ssize_t proc_read()** function is invoked where it accesses the jiffies variable and prints it in kernel buffer and it is copied to user buffer by **raw_copy_to_user()** and displayed on screen.
 
  - **Part 3**
    - Modify the kernel module to display **total time elapsed** from loading till unloading the module in **seconds** using jiffies by help of proc file system
-   - - **Description:** sdfsf
+   - - **Description:** The changes made here is similar to made of jiffies as in part 2 but some more things are to be added to sotre jiffies values at different time of execution as stated in part 1. Here two variable named **stat_time** and **end_time** which stores values of jiffies during loading and reading of the file named **seconds**. Each time this module is loaded, jiffies values during loading is stored in _start_time_ variable and every time **seconds** file is read, jiffies value is stored in _end_time_ variable. Then their difference is taken and divided by HZ value. Since the difference is number of ticks during the duration from loading the file to being read, and HZ is the number of ticks that happens in **one second**, their ratio will give the total time elapsed during that period. This message being in kernel buffer is copied to user buffer by **raw_copy_to_user()** and displayed on screen.
 
 
 
