@@ -9,11 +9,11 @@ in the /proc file system.
 - Modules are pieces of code that can be loaded and unloaded into the kernel upon demand. 
 - They extend the functionality of the kernel without the need to reboot the system. For example, one module type is the device driver, which allows the kernel to access hardware connected to the system. Without modules, we would have to build monolithic kernels and add new functionality directly into the kernel image.
 - Modules are already loaded into the kernel by running lsmod, which gets its information by reading the file /proc/modules.<br/><br/>
-**Source:** https://linux.die.net/lkmpg/x40.html
+**Source:** https://linux.die.net/lkmpg/x40.html <br/><br/>
 
 ![Interaction-of-Linux-kernel-modules-with-their-environment](https://user-images.githubusercontent.com/57564844/143457545-430d610b-82e4-4b2f-8fe5-af1428adc4d0.png)
 
-**Image Source:** https://www.researchgate.net/figure/Interaction-of-Linux-kernel-modules-with-their-environment_fig1_277248477 
+**Image Source:** https://www.researchgate.net/figure/Interaction-of-Linux-kernel-modules-with-their-environment_fig1_277248477 <br/>
 
 
 #### Setting up the Environment
