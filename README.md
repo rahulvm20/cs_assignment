@@ -50,7 +50,7 @@ The project is being divided into three parts
   - **dmesg when module is loaded second time:**   
    ![44](https://user-images.githubusercontent.com/57564844/143490368-b4061a2d-a54a-4076-a610-f799da11a6b2.png),bbr/><br/><br/>
 
-- **Part 2**<br/><br/>
+- ## **Part 2**<br/><br/>
   - **cat /proc/jiffies when module is not yet loaded:**
    ![11](https://user-images.githubusercontent.com/57564844/143491099-d092a03e-22a4-4120-be9a-7c4fae35d8c3.png)<br/><br/>
   - **cat /proc/jiffies when module is loaded first time:**
