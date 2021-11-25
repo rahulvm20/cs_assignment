@@ -13,3 +13,6 @@ in the /proc file system.
 ![Interaction-of-Linux-kernel-modules-with-their-environment](https://user-images.githubusercontent.com/57564844/143457545-430d610b-82e4-4b2f-8fe5-af1428adc4d0.png)
 
 **Image Source:** https://www.researchgate.net/figure/Interaction-of-Linux-kernel-modules-with-their-environment_fig1_277248477 
+
+#### Seting up the Environment
+To carryout this project, i used linux virtual machine that i had already installed while learning a course on coursera. details of this course is https://www.coursera.org/learn/finite-element-method/home/welcome where they explained how to install VM which worked well in this project too.
