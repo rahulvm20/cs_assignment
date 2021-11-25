@@ -20,5 +20,9 @@ To carryout this project, i used linux virtual machine that i had already instal
 
 
 #### Problems faced during the project
-Although installation was easier due to steps mentioned in that course, it was taking time to understand the command used in linux. Due to this i had to use both user interface by mouse to select and do operations like it's done in windows and along with that used command-line. During compiling using makefile, there were some issues related to module not being found due to which i had to use **sudo apt install _module_name_** and similar commands. 
+Although installation was easier due to steps mentioned in that course, it was taking time to understand the command used in linux. Due to this i had to use both user interface by mouse to select and do operations like it's done in windows and along with that used command-line. During compiling using makefile, there were some issues related to module not being found due to which i had to use **sudo apt install _module_name_** and similar commands. Some modules needed slightly different methods to solve where the name had to be changed from **asm/uaccess.h** to **linux/uaccess.h**. some of the links that helped me dueing seting up the codes and compiling them are 
+- https://ubuntuforums.org/showthread.php?t=1555724
+- https://askubuntu.com/questions/530248/asm-errno-h-no-such-file-or-directory
+- https://forums.gentoo.org/viewtopic-t-614888-start-0.html 
+
 
