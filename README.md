@@ -25,7 +25,7 @@ Although installation was easier due to steps mentioned in that course, it was t
 
 #### Problems faced during the project
 The project is being divided into 3 parts 
-- Loading and unloading of kernel modules and print 
+-1 Loading and unloading of kernel modules and print 
   - GOLDEN RATIO PRIME, jiffies, HZ in init() function
   - Print jiffies, HZ and Greatest Common Divisor (GCD) of 3300,24 in exit() function
 - Modify the kernel modules to display **jiffies** value at the moment its read using proc file system
