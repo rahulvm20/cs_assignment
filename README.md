@@ -45,7 +45,9 @@ The project is being divided into three parts
    ![11](https://user-images.githubusercontent.com/57564844/143489417-e2f0a773-515a-49c3-ba47-f2df18918b4c.png)<br/><br/>
   - **dmesg when module is loaded first time:**
    ![22](https://user-images.githubusercontent.com/57564844/143489800-b39923fe-3e12-401a-a96d-d4d94dd68cd2.png)<br/><br/>
-  - **dmesg when module is loaded first time:**
+  - **dmesg when module is un-loaded first time:**
+   ![33](https://user-images.githubusercontent.com/57564844/143489894-6b9c076d-843d-4134-82ec-1613c7e9617d.png)
+
 
 
 
