@@ -49,7 +49,7 @@ The project is being divided into three parts
   - **dmesg when module is un-loaded first time after loading:**
    ![33](https://user-images.githubusercontent.com/57564844/143489894-6b9c076d-843d-4134-82ec-1613c7e9617d.png)<br/><br/>
   - **dmesg when module is loaded second time:**   
-   ![44](https://user-images.githubusercontent.com/57564844/143490368-b4061a2d-a54a-4076-a610-f799da11a6b2.png)<br/><br/>
+   ![44](https://user-images.githubusercontent.com/57564844/143490368-b4061a2d-a54a-4076-a610-f799da11a6b2.png)<br/><br/><br/>
 
 - ### **Part 2**<br/><br/>
   - **cat /proc/jiffies when module is not yet loaded:**
@@ -57,7 +57,7 @@ The project is being divided into three parts
   - **cat /proc/jiffies when module is loaded first time:**
    ![22](https://user-images.githubusercontent.com/57564844/143491140-1ac438ce-52bb-4489-b9e0-48671f3d3b94.png)<br/><br/>
   - **cat /proc/jiffies after sometime:**
-   ![33](https://user-images.githubusercontent.com/57564844/143491201-027f2430-d102-452b-9815-b1fb598c646e.png)<br/><br/>
+   ![33](https://user-images.githubusercontent.com/57564844/143491201-027f2430-d102-452b-9815-b1fb598c646e.png)<br/><br/><br/>
 
 - ### **Part 3**<br/><br/>
   - **cat /proc/second when module is not yet loaded:**
