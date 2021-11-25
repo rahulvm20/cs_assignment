@@ -29,7 +29,7 @@ The project is being divided into 3 parts
   - Loading and unloading of kernel modules
   - print GOLDEN RATIO PRIME, jiffies, HZ in init() function 
   - Print jiffies, HZ and Greatest Common Divisor (GCD) of 3300,24 in exit() function
-  - **Description:** import necssary modules to create kernel modules and those that help run functions during loading and unloading of the modules,  and to access kernel space buffer and also access jiffies and GCD() function 
+  - **Description:** import necssary modules to create kernel modules and those that help run functions during loading and unloading of the modules, and to access kernel space buffer and also access jiffies and GCD() function. Once this C file is made then save it and create a MakeFile as shown in the folder and creat all required files for loading this as a kernel module. Once its loaded, **dmesg** will examine the kernel ring buffer and print the message buffer of kernel. Also there is variable that stores jiffies values during loading as well as unloading the module and upon calculation gives time elapsed and details of this is in part 3 below. Everytime if kernel message is needed during loading or unloading the module, dmesg will display the message what happened during each of those process based on the C code written.
   
 - Modify the kernel modules to display **jiffies** value at the moment its read using proc file system
 - Modify the kernel module to display **total time elapsed** from loading till unloading the module in **seconds** using jiffies by help of proc file system
