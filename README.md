@@ -31,7 +31,9 @@ The project is being divided into 3 parts
 - Modify the kernel modules to display **jiffies** value at the moment its read using proc file system
 - Modify the kernel module to display **total time elapsed** from loading till unloading the module in **seconds** using jiffies by help of proc file system
 
-- **Part 1**
+
+
+**Part 1**
   - ldaf
 
 
