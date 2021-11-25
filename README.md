@@ -41,4 +41,4 @@ The project is being divided into three parts
 
 #### OUTPUT
 - **Part 1**
-- - HFJ
+  - HFJ
