@@ -29,7 +29,7 @@ The project is being divided into 3 parts
   - Loading and unloading of kernel modules
   - print GOLDEN RATIO PRIME, jiffies, HZ in init() function 
   - Print jiffies, HZ and Greatest Common Divisor (GCD) of 3300,24 in exit() function
-  - **Description:** hj
+  - **Description:** import necssary modules to create kernel modules and those that help run functions during loading and unloading of the modules,  and to access kernel space buffer and also access jiffies and GCD() function 
   
 - Modify the kernel modules to display **jiffies** value at the moment its read using proc file system
 - Modify the kernel module to display **total time elapsed** from loading till unloading the module in **seconds** using jiffies by help of proc file system
