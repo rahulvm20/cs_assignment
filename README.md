@@ -41,4 +41,6 @@ The project is being divided into three parts
 
 #### OUTPUT
 - **Part 1**
-  - HFJ
+  - **dmesg when module is not yet loaded**
+  - ![11](https://user-images.githubusercontent.com/57564844/143489417-e2f0a773-515a-49c3-ba47-f2df18918b4c.png)
+
