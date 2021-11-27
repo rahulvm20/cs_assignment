@@ -32,7 +32,7 @@ MODULE_DESCRIPTION("PROC FILE FOR SECONDS ELAPSED"); /*This macro contains the d
  *
  */
 
-unsigned long int start_time, end_time; /*To store value of jiffies during loading and unloading of module*/
+unsigned long int start_time, end_time; /*To store value of jiffies during loading and reading of module*/
 
 ssize_t proc_read(struct file* file, char __user* usr_buf, size_t count, loff_t* pos);
 
